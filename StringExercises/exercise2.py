@@ -10,7 +10,7 @@ def count_characters(str):
     for i in range(0,len(str)):
         count=0
         index = str.find(str[i],0)
-        while(index != -1):
+        while(not(index == -1)):
             count+=1
             index=str.find(str[i],index+1)
             di[str[i]]=count
