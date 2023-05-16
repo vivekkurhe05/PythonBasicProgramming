@@ -5,3 +5,8 @@ add_tags('i', 'Python') -> '<i>Python</i>'
 add_tags('b', 'Python Tutorial') -> '<b>Python Tutorial </b>'
 '''
 
+def add_tags(tag, string):
+    return ("<%s>%s</%s>"%(tag,string,tag))
+
+print(add_tags("i","Python"))
+print(add_tags("b","Pyhton Tutorial"))

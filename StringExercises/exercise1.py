@@ -20,6 +20,7 @@ print(count)
 def length(sample):
     try:
         length=0
+        # loop while character exists
         while(sample[length]):
             length+=1
     except:
