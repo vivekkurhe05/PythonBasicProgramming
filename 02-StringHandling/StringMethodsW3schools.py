@@ -24,3 +24,4 @@
 # string[startindex:endindex] - returns substring from startindex to endindex-1
 # string[startindex:] - returns substring from startindex to end
 # string[:endindex] - returns substring from 0 index to endindex-1
+# join() - takes iterable object and converts into string
