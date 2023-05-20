@@ -25,3 +25,5 @@
 # string[startindex:] - returns substring from startindex to end
 # string[:endindex] - returns substring from 0 index to endindex-1
 # join() - takes iterable object and converts into string
+# in - returns true if string contains a substring. eg. "the" in "the quick brown fox"
+# __contains__(substing) - returns true if string contains a substring. e.g "the quick brown fox".__contains__("the")

@@ -7,7 +7,7 @@ def remove_char(word,index):
     newWord=''
     for i in range(0,len(word)):
         if i == index:
-            continue
+            pass
         else:
             newWord+=word[i]
     return newWord
