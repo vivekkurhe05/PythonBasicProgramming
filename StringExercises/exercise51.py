@@ -2,6 +2,7 @@
 Write a Python program to find the first non-repeating character in a given string.
 '''
 
+# noted
 # my solution
 def first_non_repeating_character(str1):
     di={}
