@@ -6,4 +6,5 @@ Expected Result : 'resta$t'
 
 Write a Python program to strip a set of characters from a string.
 
+Write a Python program to capitalize the first and last letters of each word in a given string.
 '''
