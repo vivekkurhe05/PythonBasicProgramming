@@ -28,3 +28,5 @@ s=obj.readline()
 while s:
     print(s)
     s = obj.readline()
+
+obj.close()

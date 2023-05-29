@@ -26,16 +26,16 @@ print(response.encoding)
 print(response.elapsed)
 
 # Parse response to Json format
-json_response = json.loads(response.content)
-print(json_response)
-print(json_response['data'][0]['email'])
+di = json.loads(response.content)
+print(di)
+print(di['data'][0]['email'])
 
 # Fetch value using jsonpath
-email = jsonpath.jsonpath(json_response,"data[0]['email']")
+email = jsonpath.jsonpath(di,"data[0]['email']")
 print(email[0])
 
 for i in range(0,3):
-    first_name = jsonpath.jsonpath(json_response,"data["+str(i)+"].first_name")
+    first_name = jsonpath.jsonpath(di,"data["+str(i)+"].first_name")
     print(first_name[0])
 
 # this package by defaults comes with python
