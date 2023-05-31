@@ -7,7 +7,7 @@ a+ - append & read mode
 
 # Reading data from the file
 
-obj = open("Py1.txt", "r")
+obj = open("Py1.txt", "r") # open() returns a file object
 
 # Read all data from the file
 # print(obj.read())
