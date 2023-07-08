@@ -1,11 +1,13 @@
 # capitalize() - converts first character to uppercase
 # casefold() - converts string to lowercase
-# count() - returns the no. of times specified value occurs in a string
+# count(value, start, end) - returns the no. of times specified value occurs in a string
 # startswith() - returns true if the string startswith the specified value
 # endswith() - returns true if the string endswith the specified value
-# find() - return the index of the first match, otherwise returns -1
-# format()
+# find() - returns the index of the first match, otherwise returns -1
+# rfind() - returns the index of the last match, otherwise returns -1
+# rindex() - similar to rfind(), only difference is that it raises an exception if string is not found
 # index() - similar to find(), only difference is that it raises an exception if string is not found
+# format()
 # isalnum() - returns true if the string is alphanumeric
 # isalpha() - returns true if the string contains only alphabets
 # islower() - returns true if the string is lowercase
@@ -31,5 +33,3 @@
 # "string".__contains__(substring) - returns true if string contains a substring. e.g "the quick brown fox".__contains__("the")
 # ljust(length, character) - It pads string at the end
 # rjust(length, character) - It pads string from the start
-# rfind() - returns the index of the last match, otherwise returns -1
-# rindex() - similar to rfind(), only difference is that it raises an exception if string is not found
