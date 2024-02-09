@@ -1,6 +1,7 @@
 '''
 Write a Python program to count the number of non-empty substrings of a given string.
 input : xbcefg
+e.g abcdefg - a and d are replaced
 output : 2
 '''
 
